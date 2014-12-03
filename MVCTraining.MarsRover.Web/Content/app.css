@@ -1,0 +1,51 @@
+﻿.grid-cell {
+    background-color: #e6e6fa;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed black;
+    float: left;
+}
+
+.rover {
+    margin: 30px;
+}
+
+
+.rover,
+.grid-row,
+.grid-column {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+
+.grid-row-0 {top: 0;}
+.grid-row-1 {top: 100px;}
+.grid-row-2 {top: 200px;}
+.grid-row-3 {top: 300px;}
+.grid-row-4 {top: 400px;}
+.grid-row-5 {top: 500px;}
+.grid-row-6 {top: 600px;}
+.grid-row-7 {top: 700px;}
+.grid-row-8 {top: 800px;}
+.grid-row-9 {top: 900px;}
+.grid-row-10 {top: 1000px;}
+.grid-row-11 {top: 1100px;}
+.grid-row-12 {top: 1200px;}
+
+
+.grid-column-0 {left: 0;}
+.grid-column-1 {left: 100px;}
+.grid-column-2 {left: 200px;}
+.grid-column-3 {left: 300px;}
+.grid-column-4 {left: 400px;}
+.grid-column-5 {left: 500px;}
+.grid-column-6 {left: 600px;}
+.grid-column-7 {left: 700px;}
+.grid-column-8 {left: 800px;}
+.grid-column-9 {left: 900px;}
+.grid-column-10 {left: 1000px;}
+.grid-column-11 {left: 1100px;}
+.grid-column-12 {left: 1200px;}
+

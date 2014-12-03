@@ -1,0 +1,17 @@
+﻿
+<div class="planet">
+    <div ng-repeat="row in grid" ng-class="gridRow($index)">
+        <div ng-repeat="col in row" ng-class="gridColumn($index)">
+            [{{col.row}},{{col.col}}]
+        </div>
+    </div>
+    <div ng-class="roverPositionClassName">
+        <button type="button" class="btn btn-default">
+            <span ng-class="roverOrientationClassName" aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+
+{{coordinates.x}},
+{{coordinates.y}},
+{{orientation}}

@@ -1,0 +1,16 @@
+﻿<div class="row">
+    <div class="col-lg-12 text-center">
+        Commands: <input type="text" ng-model="command" />
+         <button type="button" class="btn btn-primary" ng-click="DrawRover()">Draw Rover</button>
+       
+        <button type="button" class="btn btn-primary" ng-click="Reset()">Reset</button>
+        <br/>
+        <input type="text" ng-model="mirroredCommand" />
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-lg-12 text-center">
+        <ng-rover coordinates="rover.coordinates" orientation="rover.orientation" grid="grid" rover="rover"></ng-rover>
+    </div>
+</div></div>
